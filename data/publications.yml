@@ -13,6 +13,19 @@
 #   - bibtex:        BibTeX citation content, multiline (optional)
 #   - award:         Award text, shown in red (optional)
 # =============================================================================
+- title: 'Debugging the Debuggers: Failure-Anchored Structured Recovery for Software Engineering Agents'
+  topic: AI Agents
+  authors: Chenyu Zhao, Shenglin Zhang, Yihang Lin, Wenwei Gu, Zhimin Chen, Yongqian Sun, Dan Pei, Chetan Bansal, Saravan Rajmohan, Minghua Ma
+  category: conference
+  paper: https://arxiv.org/abs/2605.08717
+  venue: ASE'26
+  bibtex: |-
+    @article{zhao2026debugging,
+      title={Debugging the Debuggers: Failure-Anchored Structured Recovery for Software Engineering Agents},
+      author={Zhao, Chenyu and Zhang, Shenglin and Lin, Yihang and Gu, Wenwei and Chen, Zhimin and Sun, Yongqian and Pei, Dan and Bansal, Chetan and Rajmohan, Saravan and Ma, Minghua},
+      journal={arXiv preprint arXiv:2605.08717},
+      year={2026}
+    }
 - title: 'EvidenT: An Evidence-Preserving Framework for Iterative System-Level Package Repair'
   topic: AI Agents
   authors: Chenyu Zhao, Minghua Ma*, Shenglin Zhang, Zeshun Huang, Yongqian Sun, Chetan Bansal, Saravan Rajmohan, Dan Pei
