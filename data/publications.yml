@@ -13,6 +13,11 @@
 #   - bibtex:        BibTeX citation content, multiline (optional)
 #   - award:         Award text, shown in red (optional)
 # =============================================================================
+- title: 'When Does AI Actually Help in Incident Response? Identifying Good First Messages in Cloud Service Incidents'
+  topic: Incident Management
+  authors: Minghua Ma*, Rujia Wang, Chetan Bansal, Saravan Rajmohan, Yingnong Dang, Hongyu Zhang
+  category: conference
+  venue: ASE'26
 - title: 'Debugging the Debuggers: Failure-Anchored Structured Recovery for Software Engineering Agents'
   topic: AI Agents
   authors: Chenyu Zhao, Shenglin Zhang, Yihang Lin, Wenwei Gu, Zhimin Chen, Yongqian Sun, Dan Pei, Chetan Bansal, Saravan Rajmohan, Minghua Ma
