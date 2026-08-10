@@ -1,4 +1,4 @@
-# marvin233.github.io
+# minghuama233.github.io
 
 Personal academic website for **Dr. Minghua Ma**, Senior Researcher at Microsoft.
 
