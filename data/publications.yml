@@ -13,6 +13,16 @@
 #   - bibtex:        BibTeX citation content, multiline (optional)
 #   - award:         Award text, shown in red (optional)
 # =============================================================================
+- title: 'Bridging the Mitigation Gap: A Taxonomy-Driven Empirical Study of Incident Recovery in Production LLM Serving'
+  topic: Incident Management
+  authors: Bhala Ranganathan, Minghua Ma
+  category: conference
+  venue: ISSRE'26
+- title: 'From Portal to Platform: Reliability Lessons from an Enterprise Microsoft 365 Copilot Connector for Organizational Knowledge at Scale'
+  topic: Incident Management
+  authors: Sai Pramod Upadhyayula, Minghua Ma
+  category: conference
+  venue: ISSRE'26
 - title: 'When Does AI Actually Help in Incident Response? Identifying Good First Messages in Cloud Service Incidents'
   topic: Incident Management
   authors: Minghua Ma*, Rujia Wang, Chetan Bansal, Saravan Rajmohan, Yingnong Dang, Hongyu Zhang
@@ -23,6 +33,7 @@
   authors: Chenyu Zhao, Shenglin Zhang, Yihang Lin, Wenwei Gu, Zhimin Chen, Yongqian Sun, Dan Pei, Chetan Bansal, Saravan Rajmohan, Minghua Ma
   category: conference
   paper: https://arxiv.org/abs/2605.08717
+  code: https://github.com/zcyyc/probe
   venue: ASE'26
   bibtex: |-
     @article{zhao2026debugging,
