@@ -489,8 +489,8 @@
 - title: Enhanced Fine-Tuning of Lightweight Domain-Specific Q&A model Based on Large Language Models
   topic: AI Agents
   authors: Shenglin Zhang, Pengtian Zhu, Minghua Ma, Jiagang Wang, Yongqian Sun, Dongwen Li, Jingyu Wang, Qianying Guo, Xiaolei Hua, Lin Zhu, Dan Pei
-  category: workshop
-  venue: ISSREW'24
+  category: conference
+  venue: ISSRE'24
   paper: https://doi.org/10.1109/issrew63542.2024.00048
   bibtex: |-
     @inproceedings{zhang2024enhanced,
@@ -505,8 +505,8 @@
 - title: 'Early Bird: Ensuring Reliability of Cloud Systems Through Early Failure Prediction'
   topic: Cloud Reliability
   authors: Yudong Liu, Minghua Ma*, Pu Zhao, Tianci Li, Bo Qiao, Shuo Li, Ze Li, Murali Chintalapati, Yingnong Dang, Chetan Bansal, Saravan Rajmohan, Qingwei Lin, Dongmei Zhang
-  category: workshop
-  venue: ISSREW'24
+  category: conference
+  venue: ISSRE'24
   paper: https://doi.org/10.1109/issrew63542.2024.00046
   bibtex: |-
     @inproceedings{liu2024early,
