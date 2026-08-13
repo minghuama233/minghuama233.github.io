@@ -8,8 +8,15 @@
   <link rel="canonical" href="https://minghuama233.github.io/">
   <meta property="og:locale" content="en-US">
   <meta property="og:site_name" content="Dr. Minghua Ma">
-  <meta property="og:title" content="About">
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Dr. Minghua Ma">
+  <meta property="og:description" content="Senior Researcher at Microsoft M365 Research, working on AIOps and cloud reliability.">
   <meta property="og:url" content="https://minghuama233.github.io/">
+  <meta property="og:image" content="https://minghuama233.github.io/images/bio-photo.jpg">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Dr. Minghua Ma">
+  <meta name="twitter:description" content="Senior Researcher at Microsoft M365 Research, working on AIOps and cloud reliability.">
+  <meta name="twitter:image" content="https://minghuama233.github.io/images/bio-photo.jpg">
   <script>document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';</script>
   <link rel="stylesheet" href="/assets/css/main.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1.9.4/css/academicons.min.css">
@@ -71,7 +78,6 @@
         <p class="author__bio">Senior Researcher</p>
       </div>
       <div class="author__urls-wrapper">
-        <button class="btn btn--inverse">Follow</button>
         <ul class="author__urls social-icons">
           <li class="author__desktop">
             <i class="fas fa-fw fa-location-dot icon-pad-right" aria-hidden="true"></i>Redmond, WA, USA
@@ -87,7 +93,7 @@
             </a>
           </li>
           <li>
-            <a href="https://orcid.org/my-orcid?orcid=0000-0002-6303-1731">
+            <a href="https://orcid.org/0000-0002-6303-1731">
               <i class="ai ai-orcid ai-fw icon-pad-right"></i>ORCID
             </a>
           </li>
@@ -355,7 +361,7 @@
         <div id="notification" style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%,-50%); z-index:1000; background:var(--global-bg-color,#fff); color:var(--global-text-color,#333); border:1px solid var(--global-border-color,#ccc); border-radius:8px; box-shadow:0 4px 20px rgba(0,0,0,0.25); padding:20px; max-width:700px; width:90%; max-height:70vh; overflow-y:auto;">
           <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
             <strong id="bibtex-title" style="font-size:1.1em;">&#128206; BibTeX (copied to clipboard)</strong>
-            <button onclick="closePopup()" style="background:none; border:none; font-size:1.4em; cursor:pointer; color:#666;">&times;</button>
+            <button onclick="closePopup()" aria-label="Close" style="background:none; border:none; font-size:1.4em; cursor:pointer; color:#666;">&times;</button>
           </div>
           <pre id="bibtex-content" style="background:var(--callout-bg,#f5f5f5); padding:12px; border-radius:4px; overflow-x:auto; white-space:pre-wrap; word-break:break-all; font-size:0.9em; margin:0;"></pre>
         </div>
@@ -383,30 +389,6 @@
 <!-- Footer -->
 <div class="page__footer">
   <footer>
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        var counters = document.querySelectorAll('.stat-number[data-target]');
-        if (!counters.length) return;
-        var animated = new Set();
-        function animateCounter(el) {
-          var target = parseInt(el.getAttribute('data-target'), 10);
-          var duration = 1500, startTime = null;
-          function step(ts) {
-            if (!startTime) startTime = ts;
-            var p = Math.min((ts - startTime) / duration, 1);
-            el.textContent = Math.floor((1 - Math.pow(1 - p, 3)) * target);
-            if (p < 1) requestAnimationFrame(step); else el.textContent = target;
-          }
-          requestAnimationFrame(step);
-        }
-        var obs = new IntersectionObserver(function(entries) {
-          entries.forEach(function(e) {
-            if (e.isIntersecting && !animated.has(e.target)) { animated.add(e.target); animateCounter(e.target); }
-          });
-        }, { threshold: 0.3 });
-        counters.forEach(function(c) { obs.observe(c); });
-      });
-    </script>
     <div class="page__footer-copyright">
       &copy; 2026 Minghua Ma
     </div>
