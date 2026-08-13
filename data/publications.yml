@@ -18,16 +18,37 @@
   authors: Bhala Ranganathan, Minghua Ma
   category: conference
   venue: ISSRE'26
+  bibtex: |-
+    @inproceedings{ranganathan2026bridging,
+      title={Bridging the Mitigation Gap: A Taxonomy-Driven Empirical Study of Incident Recovery in Production LLM Serving},
+      author={Ranganathan, Bhala and Ma, Minghua},
+      booktitle={2026 IEEE 37th International Symposium on Software Reliability Engineering (ISSRE)},
+      year={2026}
+    }
 - title: 'From Portal to Platform: Reliability Lessons from an Enterprise Microsoft 365 Copilot Connector for Organizational Knowledge at Scale'
   topic: Incident Management
   authors: Sai Pramod Upadhyayula, Minghua Ma
   category: conference
   venue: ISSRE'26
+  bibtex: |-
+    @inproceedings{upadhyayula2026portal,
+      title={From Portal to Platform: Reliability Lessons from an Enterprise Microsoft 365 Copilot Connector for Organizational Knowledge at Scale},
+      author={Upadhyayula, Sai Pramod and Ma, Minghua},
+      booktitle={2026 IEEE 37th International Symposium on Software Reliability Engineering (ISSRE)},
+      year={2026}
+    }
 - title: 'When Does AI Actually Help in Incident Response? Identifying Good First Messages in Cloud Service Incidents'
   topic: Incident Management
   authors: Minghua Ma*, Rujia Wang, Chetan Bansal, Saravan Rajmohan, Yingnong Dang, Hongyu Zhang
   category: conference
   venue: ASE'26
+  bibtex: |-
+    @inproceedings{ma2026when,
+      title={When Does AI Actually Help in Incident Response? Identifying Good First Messages in Cloud Service Incidents},
+      author={Ma, Minghua and Wang, Rujia and Bansal, Chetan and Rajmohan, Saravan and Dang, Yingnong and Zhang, Hongyu},
+      booktitle={Proceedings of the 41st IEEE/ACM International Conference on Automated Software Engineering (ASE)},
+      year={2026}
+    }
 - title: 'Debugging the Debuggers: Failure-Anchored Structured Recovery for Software Engineering Agents'
   topic: AI Agents
   authors: Chenyu Zhao, Shenglin Zhang, Yihang Lin, Wenwei Gu, Zhimin Chen, Yongqian Sun, Dan Pei, Chetan Bansal, Saravan Rajmohan, Minghua Ma
@@ -36,10 +57,10 @@
   code: https://github.com/zcyyc/probe
   venue: ASE'26
   bibtex: |-
-    @article{zhao2026debugging,
+    @inproceedings{zhao2026debugging,
       title={Debugging the Debuggers: Failure-Anchored Structured Recovery for Software Engineering Agents},
       author={Zhao, Chenyu and Zhang, Shenglin and Lin, Yihang and Gu, Wenwei and Chen, Zhimin and Sun, Yongqian and Pei, Dan and Bansal, Chetan and Rajmohan, Saravan and Ma, Minghua},
-      journal={arXiv preprint arXiv:2605.08717},
+      booktitle={Proceedings of the 41st IEEE/ACM International Conference on Automated Software Engineering (ASE)},
       year={2026}
     }
 - title: 'EvidenT: An Evidence-Preserving Framework for Iterative System-Level Package Repair'
@@ -60,6 +81,7 @@
   authors: Yuhan Yao, Yuxuan Jiang, Minghua Ma*, Madhura Vaidya, Jieren Deng, Yigong Hu, Chetan Bansal, Ze Li, Murali Chintalapati
   category: conference
   venue: FSE'26
+  paper: https://dl.acm.org/doi/10.1145/3803437.3805228
   bibtex: |-
     @inproceedings{yao2026agentic,
       doi={10.1145/3803437.3805228},
@@ -73,6 +95,7 @@
   authors: Yi Xiao, Hongyu Zhang, Daniel Genkin, Chaoyun Zhang, Rujia Wang, Chetan Bansal, Bhala Ranganathan, Saravan Rajmohan, Minghua Ma*
   category: conference
   venue: FSE'26
+  paper: https://dl.acm.org/doi/10.1145/3803437.3805239
   bibtex: |-
     @inproceedings{xiao2026tsgen,
       doi={10.1145/3803437.3805239},
@@ -86,6 +109,7 @@
   authors: Shenglin Zhang, Yujia Wu, Jinghuan Ren, Yongqian Sun, Wenwei Gu, Chaoyun Zhang, Liqun Li, Qingwei Lin, Dongmei Zhang, Saravan Rajmohan, Chetan Bansal, Minghua Ma*
   category: conference
   venue: FSE'26
+  paper: https://dl.acm.org/doi/10.1145/3803437.3805241
   bibtex: |-
     @inproceedings{zhang2026aloha,
       doi={10.1145/3803437.3805241},
@@ -114,7 +138,7 @@
   authors: Chenyu Zhao, Shenglin Zhang, Zeshun Huang, Weilin Jin, Yongqian Sun, Dan Pei, Chaoyun Zhang, Qingwei Lin, Chetan Bansal, Saravan Rajmohan, Minghua Ma*
   category: journal
   venue: TOSEM'26
-  paper: https://arxiv.org/abs/2511.00780
+  paper: https://dl.acm.org/doi/10.1145/3816153
   code: https://github.com/zcyyc/Build-bench
   homepage: https://buildbench-hub.github.io/buildbench.github.io
   bibtex: |-
@@ -144,7 +168,7 @@
   authors: Yuhe Liu, Changhua Pei, Longlong Xu, Bohan Chen, Mingze Sun, Zhirui Zhang, Yongqian Sun, Shenglin Zhang, Kun Wang, Haiming Zhang, Jianhui Li, Gaogang Xie, Xidao Wen, Xiaohui Nie, Minghua Ma, Dan Pei
   category: conference
   venue: FSE'25
-  paper: https://arxiv.org/abs/2310.07637
+  paper: https://dl.acm.org/doi/10.1145/3696630.3728572
   homepage: https://opseval.cstcloud.cn/content/home
   bibtex: |-
     @inproceedings{liu2023opseval,
@@ -190,7 +214,7 @@
   authors: Shenglin Zhang, Sibo Xia, Wenzhao Fan, Binpeng Shi, Xiao Xiong, Zhenyu Zhong, Minghua Ma, Yongqian Sun, Dan Pei
   category: journal
   venue: TOSEM'25
-  paper: https://arxiv.org/abs/2407.01710
+  paper: https://dl.acm.org/doi/10.1145/3715005
   bibtex: |-
     @article{zhang2024failure,
       doi={10.1145/3715005},
@@ -236,14 +260,15 @@
     }
 - title: 'Intelligent Triage: Interpretable Incident Triage Workflow using LLM Extracted Triage Reasoning'
   topic: Incident Management
-  authors: Jianing Liu, Hao Ren, Yu Kang, Minghua Ma, Fangkai Yang, Yong Xu, Xin Gao, Meng Zhang, Hongbin Wang, Xuedong Gao, Dongmei Zhang, Qi Zhang, Chetan Bansal, Saravan Rajmohan, Yingnong Dang
+  authors: Jianing Liu, Hao Ren, Yu Kang, Minghua Ma, Fangkai Yang, Yong Xu, Xin Gao, Meng Zhang, Hongbin Wang, Xuedong Gao, Qingwei Lin, Yingnong Dang, Saravan Rajmohan, Dongmei Zhang, Qi Zhang, Chetan Bansal, Yangfan Zhou
   category: conference
   venue: ICSE-SEIP'26
+  paper: https://dl.acm.org/doi/10.1145/3786583.3786887
   bibtex: |-
     @inproceedings{liu2026intelligent,
       doi={10.1145/3786583.3786887},
       title={Intelligent Triage: Interpretable Incident Triage Workflow using LLM Extracted Triage Reasoning},
-      author={Liu, Jianing and Ren, Hao and Kang, Yu and Ma, Minghua and Yang, Fangkai and Xu, Yong and Gao, Xin and Zhang, Meng and Wang, Hongbin and Gao, Xuedong and others},
+      author={Liu, Jianing and Ren, Hao and Kang, Yu and Ma, Minghua and Yang, Fangkai and Xu, Yong and Gao, Xin and Zhang, Meng and Wang, Hongbin and Gao, Xuedong and Lin, Qingwei and Dang, Yingnong and Rajmohan, Saravan and Zhang, Dongmei and Zhang, Qi and Bansal, Chetan and Zhou, Yangfan},
       booktitle={2026 IEEE/ACM 48th International Conference on Software Engineering: Software Engineering in Practice (ICSE-SEIP)},
       year={2026},
       organization={IEEE}
@@ -254,10 +279,10 @@
   category: workshop
   venue: LLM4Code'26
   bibtex: |-
-    @article{jin2026benchmark,
+    @inproceedings{jin2026benchmark,
       title={A Benchmark for Language Models in Real-World System Building},
-      author={Jin, Weilin and Zhao, Chenyu and Huang, Zeshun and Zhang, Chaoyun and Lin, Qingwei and Bansal, Chetan and Rajmohan, Saravan and Zhang, Shenglin and Sun, Yongqian and Pei, Dan and others},
-      journal={arXiv preprint arXiv:2601.12927},
+      author={Jin, Weilin and Zhao, Chenyu and Huang, Zeshun and Zhang, Chaoyun and Lin, Qingwei and Bansal, Chetan and Rajmohan, Saravan and Zhang, Shenglin and Sun, Yongqian and Pei, Dan and Wu, Yifan and Jia, Tong and Li, Ying and Wu, Zhonghai and Ma, Minghua},
+      booktitle={Proceedings of the 2026 International Workshop on Large Language Models for Code (LLM4Code)},
       year={2026}
     }
 - title: 'Triangle: Empowering Incident Triage with Multi-Agent'
@@ -265,7 +290,7 @@
   authors: Zhaoyang Yu, Aoyang Fang, Minghua Ma*, Jaskaran Singh Walia, Chaoyun Zhang, Shu Chi, Ze Li, Murali Chintalapati, Xuchao Zhang, Rujia Wang, Chetan Bansal, Saravan Rajmohan, Qingwei Lin, Shenglin Zhang, Dan Pei, Pinjia He
   category: conference
   venue: ASE'25
-  paper: https://www.microsoft.com/en-us/research/publication/triangle-empowering-incident-triage-with-multi-agents/
+  paper: https://doi.org/10.1109/ase63991.2025.00062
   code: https://github.com/microsoft/Triangle
   bibtex: |-
     @inproceedings{yu2025triangle,
@@ -279,31 +304,32 @@
     }
 - title: 'Too Many Cooks: Assessing the Need for Multi-Source Data in Microservice Failure Diagnosis'
   topic: Cloud Reliability
-  authors: Shenglin Zhang, Xiaoyu Feng, Runzhou Wang, Minghua Ma, Wenwei Gu, Yongqian Sun, Zedong Jia, Jinrui Sun and Dan Pei
+  authors: Shenglin Zhang, Xiaoyu Feng, Runzhou Wang, Minghua Ma, Wenwei Gu, Yongqian Sun, Zedong Jia, Jinrui Sun, Dan Pei
   category: conference
   venue: ISSRE'25
-  paper: https://nkcs.iops.ai/wp-content/uploads/2025/07/Xiaoyu__Empirical_Study_on_Multi_source_Failure_Diagnosis.pdf
+  paper: https://doi.org/10.1109/issre66568.2025.00014
   bibtex: |-
-    @Article{feng2025cooks,
-     author = {Shenglin Zhang and Xiaoyu Feng and Runzhou Wang and Minghua Ma and Wenwei Gu and Yongqian Sun and Zedong Jia and Jinrui Sun and Dan Pei},
-     booktitle = {IEEE International Symposium on Software Reliability Engineering},
-     journal = {2025 IEEE 36th International Symposium on Software Reliability Engineering (ISSRE)},
-     pages = {1-12},
-     title = {Too Many Cooks: Assessing the Need for Multi-Source Data in Microservice Failure Diagnosis},
-     year = {2025}
+    @inproceedings{feng2025cooks,
+      doi={10.1109/issre66568.2025.00014},
+      title={Too Many Cooks: Assessing the Need for Multi-Source Data in Microservice Failure Diagnosis},
+      author={Zhang, Shenglin and Feng, Xiaoyu and Wang, Runzhou and Ma, Minghua and Gu, Wenwei and Sun, Yongqian and Jia, Zedong and Sun, Jinrui and Pei, Dan},
+      booktitle={2025 IEEE 36th International Symposium on Software Reliability Engineering (ISSRE)},
+      pages={1--12},
+      year={2025},
+      organization={IEEE}
     }
   award: IEEE the 36th ISSRE Best Research Paper Candidates
 - title: An Empirical Study of Production Incidents in Generative AI Cloud Services
   topic: Incident Management
-  authors: Haoran Yan, Yinfang Chen, Minghua Ma*, Ming Wen, Shan Lu, Shenglin Zhang, Tianyin Xu, Rujia Wang, Chetan Bansal, Saravan Rajmohan, Chaoyun Zhang, Dongmei Zhang
+  authors: Haoran Yan, Yinfang Chen, Minghua Ma*, Ming Wen, Shan Lu, Shenglin Zhang, Tianyin Xu, Rujia Wang, Chetan Bansal, Saravan Rajmohan, Qingwei Lin, Chaoyun Zhang, Dongmei Zhang
   category: conference
   venue: ISSRE'25
-  paper: https://arxiv.org/abs/2504.08865
+  paper: https://doi.org/10.1109/issre66568.2025.00044
   bibtex: |-
     @inproceedings{yan2025empirical,
       doi={10.1109/issre66568.2025.00044},
       title={An empirical study of production incidents in generative ai cloud services},
-      author={Yan, Haoran and Chen, Yinfang and Ma, Minghua and Wen, Ming and Lu, Shan and Zhang, Shenglin and Xu, Tianyin and Wang, Rujia and Bansal, Chetan and Rajmohan, Saravan and others},
+      author={Yan, Haoran and Chen, Yinfang and Ma, Minghua and Wen, Ming and Lu, Shan and Zhang, Shenglin and Xu, Tianyin and Wang, Rujia and Bansal, Chetan and Rajmohan, Saravan and Lin, Qingwei and Zhang, Chaoyun and Zhang, Dongmei},
       booktitle={2025 IEEE 36th International Symposium on Software Reliability Engineering (ISSRE)},
       pages={359--370},
       year={2025},
@@ -314,7 +340,7 @@
   authors: Jun Liu, Chaoyun Zhang, Jiaxu Qian, Minghua Ma, Si Qin, Chetan Bansal, Qingwei Lin, Saravan Rajmohan, Dongmei Zhang
   category: conference
   venue: KDD'25
-  paper: https://arxiv.org/abs/2405.15370
+  paper: https://dl.acm.org/doi/10.1145/3711896.3737239
   bibtex: |-
     @inproceedings{liu2025large,
       doi={10.1145/3711896.3737239},
@@ -329,7 +355,7 @@
   authors: Chaoyun Zhang, Liqun Li, Shilin He, Xu Zhang, Bo Qiao, Si Qin, Minghua Ma, Yu Kang, Qingwei Lin, Saravan Rajmohan, Dongmei Zhang, Qi Zhang
   category: conference
   venue: NAACL'25
-  paper: https://arxiv.org/abs/2402.07939
+  paper: https://aclanthology.org/2025.naacl-long.26/
   code: https://github.com/microsoft/UFO
   bibtex: |-
     @inproceedings{zhang2024ufo,
@@ -370,9 +396,10 @@
     }
 - title: 'AIOpsArena: Scenario-Oriented Evaluation and Leaderboard for AIOps Algorithms in Microservices'
   topic: Cloud Reliability
-  authors: Yongqian Sun, Jiaju Wang, Zhengdan Li, Xiaohui Nie, Minghua Ma, Shenglin Zhang, Yuhe Ji, Lu Zhang, Wen Long, Yongnan Luo, Hengmao Chen, Dan Pei
+  authors: Yongqian Sun, Jiaju Wang, Zhengdan Li, Xiaohui Nie, Minghua Ma, Shenglin Zhang, Yuhe Ji, Lu Zhang, Wen Long, Hengmao Chen, Yongnan Luo, Dan Pei
   category: conference
   venue: SANER'25
+  paper: https://doi.org/10.1109/saner64311.2025.00082
   bibtex: |-
     @inproceedings{sun2025aiopsarena,
       doi={10.1109/saner64311.2025.00082},
@@ -388,7 +415,7 @@
   authors: Chaoyun Zhang, Zicheng Ma, Yuhao Wu, Shilin He, Si Qin, Minghua Ma, Xiaoting Qin, Yu Kang, Yuyi Liang, Xiaoyu Gou, Yajie Xue, Qingwei Lin, Saravan Rajmohan, Dongmei Zhang, Qi Zhang
   category: conference
   venue: ICDE'25
-  paper: https://arxiv.org/abs/2403.15157
+  paper: https://doi.org/10.1109/icde65448.2025.00011
   bibtex: |-
     @inproceedings{zhang2025allhands,
       doi={10.1109/icde65448.2025.00011},
@@ -404,7 +431,7 @@
   authors: Manish Shetty, Yinfang Chen, Gagan Somashekar, Minghua Ma, Yogesh Simmhan, Xuchao Zhang, Jonathan Mace, Dax Vandevoorde, Pedro Las-Casas, Shachee Mishra Gupta, Suman Nath, Chetan Bansal, Saravan Rajmohan
   category: conference
   venue: SoCC'24
-  paper: https://arxiv.org/abs/2407.12165
+  paper: https://dl.acm.org/doi/10.1145/3698038.3698525
   bibtex: |-
     @inproceedings{shetty2024building,
       doi={10.1145/3698038.3698525},
@@ -416,10 +443,10 @@
     }
 - title: 'Deoxys: A Causal Inference Engine for Unhealthy Node Mitigation in Large-scale Cloud Infrastructure'
   topic: Cloud Reliability
-  authors: Chaoyun Zhang, Randolph Yao, Si Qin, Ze Li, Shekhar Agrawal, Binit Mishra, Tri Tran, Minghua Ma, Qingwei Lin, Murali Chintalapati, Dongmei Zhang
+  authors: Chaoyun Zhang, Randolph Yao, Si Qin, Ze Li, Shekhar Agrawal, Binit R. Mishra, Tri Tran, Minghua Ma, Qingwei Lin, Murali Chintalapati, Dongmei Zhang
   category: conference
   venue: SoCC'24
-  paper: https://arxiv.org/abs/2410.17709
+  paper: https://dl.acm.org/doi/10.1145/3698038.3698534
   bibtex: |-
     @inproceedings{zhang2024deoxys,
       doi={10.1145/3698038.3698534},
@@ -434,6 +461,7 @@
   authors: Shenglin Zhang, Yuhe Ji, Jiaqi Luan, Xiaohui Nie, Zi'ang Chen, Minghua Ma, Yongqian Sun, Dan Pei
   category: conference
   venue: ASE'24
+  paper: https://dl.acm.org/doi/10.1145/3691620.3695535
   bibtex: |-
     @inproceedings{zhang2024end,
       doi={10.1145/3691620.3695535},
@@ -448,6 +476,7 @@
   authors: Yongqian Sun, Binpeng Shi, Mingyu Mao, Minghua Ma, Sibo Xia, Shenglin Zhang, Dan Pei
   category: conference
   venue: ASE'24
+  paper: https://dl.acm.org/doi/10.1145/3691620.3695495
   bibtex: |-
     @inproceedings{sun2024art,
       doi={10.1145/3691620.3695495},
@@ -460,8 +489,9 @@
 - title: Enhanced Fine-Tuning of Lightweight Domain-Specific Q&A model Based on Large Language Models
   topic: AI Agents
   authors: Shenglin Zhang, Pengtian Zhu, Minghua Ma, Jiagang Wang, Yongqian Sun, Dongwen Li, Jingyu Wang, Qianying Guo, Xiaolei Hua, Lin Zhu, Dan Pei
-  category: conference
-  venue: ISSRE'24
+  category: workshop
+  venue: ISSREW'24
+  paper: https://doi.org/10.1109/issrew63542.2024.00048
   bibtex: |-
     @inproceedings{zhang2024enhanced,
       doi={10.1109/issrew63542.2024.00048},
@@ -475,8 +505,9 @@
 - title: 'Early Bird: Ensuring Reliability of Cloud Systems Through Early Failure Prediction'
   topic: Cloud Reliability
   authors: Yudong Liu, Minghua Ma*, Pu Zhao, Tianci Li, Bo Qiao, Shuo Li, Ze Li, Murali Chintalapati, Yingnong Dang, Chetan Bansal, Saravan Rajmohan, Qingwei Lin, Dongmei Zhang
-  category: conference
-  venue: ISSRE'24
+  category: workshop
+  venue: ISSREW'24
+  paper: https://doi.org/10.1109/issrew63542.2024.00046
   bibtex: |-
     @inproceedings{liu2024early,
       doi={10.1109/issrew63542.2024.00046},
@@ -493,7 +524,7 @@
   authors: Zexin Wang, Jianhui Li, Minghua Ma*, Ze Li, Yu Kang, Chaoyun Zhang, Chetan Bansal, Murali Chintalapati, Saravan Rajmohan, Qingwei Lin, Dongmei Zhang, Changhua Pei, Gaogang Xie
   category: conference
   venue: ISSRE'24
-  paper: https://www.microsoft.com/en-us/research/wp-content/uploads/2024/08/ISSRE24_LLM4triage.pdf
+  paper: https://doi.org/10.1109/issre62328.2024.00056
   bibtex: |-
     @inproceedings{wang2024large,
       doi={10.1109/issre62328.2024.00056},
@@ -506,9 +537,10 @@
     }
 - title: Can We Trust Auto-Mitigation? Improving Cloud Failure Prediction with Uncertain Positive Learning
   topic: Cloud Reliability
-  authors: Haozhe Li, Minghua Ma*, Yudong Liu, Pu Zhao, Shuo Li, Lingling Zheng, Ze Li, Murali Chintalapati, Yingnong Dang, Chetan Bansal, Saravan Rajmohan, Qingwei Lin, Dongmei Zhang
+  authors: Haozhe Li, Minghua Ma*, Yudong Liu, Pu Zhao, Shuo Li, Ze Li, Murali Chintalapati, Yingnong Dang, Chetan Bansal, Saravan Rajmohan, Qingwei Lin, Dongmei Zhang
   category: conference
   venue: ISSRE'24
+  paper: https://doi.org/10.1109/issre62328.2024.00054
   bibtex: |-
     @inproceedings{li2024can,
       doi={10.1109/issre62328.2024.00054},
@@ -524,6 +556,7 @@
   authors: Zhaoyang Yu, Changhua Pei, Xin Wang, Minghua Ma, Chetan Bansal, Saravan Rajmohan, Qingwei Lin, Dongmei Zhang, Xidao Wen, Jianhui li, Gaogang Xie, Dan Pei
   category: conference
   venue: KDD'24
+  paper: https://dl.acm.org/doi/10.1145/3637528.3671522
   bibtex: |-
     @inproceedings{yu2024pre,
       doi={10.1145/3637528.3671522},
@@ -538,6 +571,7 @@
   authors: Zhe Xie, Shenglin Zhang, Yitong Geng, Yao Zhang, Minghua Ma, Xiaohui Nie, Zhenhe Yao, Longlong Xu, Yongqian Sun, Wentao Li, Dan Pei
   category: conference
   venue: KDD'24
+  paper: https://dl.acm.org/doi/10.1145/3637528.3671530
   bibtex: |-
     @inproceedings{xie2024microservice,
       doi={10.1145/3637528.3671530},
@@ -552,7 +586,7 @@
   authors: Ruomeng Ding, Chaoyun Zhang, Lu Wang, Yong Xu, Minghua Ma, Wei Zhang, Si Qin, Saravan Rajmohan, Qingwei Lin, Dongmei Zhang
   category: conference
   venue: ACL'24
-  paper: https://arxiv.org/abs/2311.04254
+  paper: https://aclanthology.org/2024.findings-acl.95/
   bibtex: |-
     @inproceedings{ding2023everything,
       doi={10.18653/v1/2024.findings-acl.95},
@@ -567,7 +601,7 @@
   authors: Zhaoyang Yu, Minghua Ma*, Chaoyun Zhang, Si Qin, Yu Kang, Chetan Bansal, Saravan Rajmohan, Yingnong Dang, Changhua Pei, Dan Pei, Qingwei Lin, Dongmei Zhang
   category: conference
   venue: FSE'24
-  paper: https://dl.acm.org/doi/pdf/10.1145/3663529.3663826
+  paper: https://dl.acm.org/doi/10.1145/3663529.3663826
   bibtex: |-
     @inproceedings{yu2024monitorassistant,
       doi={10.1145/3663529.3663826},
@@ -582,7 +616,7 @@
   authors: Xuchao Zhang, Supriyo Ghosh, Chetan Bansal, Rujia Wang, Minghua Ma, Yu Kang, Saravan Rajmohan
   category: conference
   venue: FSE'24
-  paper: https://arxiv.org/abs/2401.13810
+  paper: https://dl.acm.org/doi/10.1145/3663529.3663846
   bibtex: |-
     @inproceedings{zhang2024automated,
       doi={10.1145/3663529.3663846},
@@ -597,7 +631,7 @@
   authors: Zexin Wang, Changhua Pei, Minghua Ma, Xin Wang, Zhihan Li, Dan Pei, Saravan Rajmohan, Dongmei Zhang, Qingwei Lin, Haiming Zhang, Jianhui li, Gaogang Xie
   category: conference
   venue: TheWebConf'24
-  paper: https://arxiv.org/pdf/2402.02820
+  paper: https://dl.acm.org/doi/10.1145/3589334.3645710
   code: https://github.com/CSTCloudOps/FCVAE
   bibtex: |-
     @inproceedings{wang2024revisiting,
@@ -613,7 +647,7 @@
   authors: Yuhang Chen, Chaoyun Zhang, Minghua Ma, Yudong Liu, Ruomeng Ding, Bowen Li, Shilin He, Saravan Rajmohan, Qingwei Lin, Dongmei Zhang
   category: conference
   venue: VLDB'24
-  paper: https://www.vldb.org/pvldb/vol17/p359-zhang.pdf
+  paper: https://doi.org/10.14778/3632093.3632101
   code: https://github.com/17000cyh/IMDiffusion
   bibtex: |-
     @article{chen2023imdiffusion,
@@ -632,7 +666,7 @@
   authors: Yuxuan Jiang, Chaoyun Zhang, Shilin He, Zhihao Yang, Minghua Ma, Si Qin, Yu Kang, Yingnong Dang, Saravan Rajmohan, Qingwei Lin, Dongmei Zhang
   category: conference
   venue: ICSE'24
-  paper: https://arxiv.org/abs/2312.11988
+  paper: https://dl.acm.org/doi/10.1145/3597503.3639081
   bibtex: |-
     @inproceedings{jiang2024xpert,
       doi={10.1145/3597503.3639081},
@@ -644,10 +678,10 @@
     }
 - title: Automatic Root Cause Analysis via Large Language Models for Cloud Incidents
   topic: Incident Management
-  authors: Yinfang Chen, Huaibing Xie, Minghua Ma*, Yu Kang, Xin Gao, Liu Shi, Yunjie Cao, Xuedong Gao, Hao Fan, Ming Wen, Jun Zeng, Supriyo Ghosh, Xuchao Zhang, Chaoyun Zhang, Qingwei Lin, Saravan Rajmohan, Dongmei Zhang
+  authors: Yinfang Chen, Huaibing Xie, Minghua Ma*, Yu Kang, Xin Gao, Liu Shi, Yunjie Cao, Xuedong Gao, Hao Fan, Ming Wen, Jun Zeng, Supriyo Ghosh, Xuchao Zhang, Chaoyun Zhang, Qingwei Lin, Saravan Rajmohan, Dongmei Zhang, Tianyin Xu
   category: conference
   venue: EuroSys'24
-  paper: https://arxiv.org/abs/2305.15778
+  paper: https://dl.acm.org/doi/10.1145/3627703.3629553
   bibtex: |-
     @inproceedings{chen2024automatic,
       doi={10.1145/3627703.3629553},
@@ -662,7 +696,7 @@
   authors: Haozhe Li, Minghua Ma, Yudong Liu, Si Qin, Bo Qiao, Randolph Yao, Harshwardhan Chaturvedi, Tri Tran, Murali Chintalapati, Saravan Rajmohan, Qingwei Lin and Dongmei Zhang
   category: conference
   venue: ISSRE'23
-  paper: https://ieeexplore.ieee.org/document/10301225
+  paper: https://doi.org/10.1109/issre59848.2023.00069
   bibtex: |-
     @inproceedings{li2023codec,
       doi={10.1109/issre59848.2023.00069},
@@ -678,7 +712,7 @@
   authors: Pengxiang Jin<sup>+</sup>, Shenglin Zhang<sup>+</sup>, Minghua Ma, Haozhe Li, Yu Kang, Liqun Li, Yudong Liu, Bo Qiao, Chaoyun Zhang, Pu Zhao, Shilin He, Federica Sarro, Yingnong Dang, Saravan Rajmohan, Qingwei Lin, Dongmei Zhang
   category: conference
   venue: FSE'23
-  paper: https://arxiv.org/abs/2305.18084
+  paper: https://dl.acm.org/doi/10.1145/3611643.3613891
   bibtex: |-
     @inproceedings{jin2023assess,
       doi={10.1145/3611643.3613891},
@@ -705,10 +739,10 @@
     }
 - title: 'TraceDiag: Adaptive, Interpretable and Efficient Root Cause Analysis on Large-Scale Microservice Systems'
   topic: Cloud Reliability
-  authors: Ruomeng Ding, Chaoyun Zhang, Lu Wang, Yong Xu, Minghua Ma, Xiaomin Wu, Meng Zhang, Qingjun Chen, Xin Gao, Xuedong Gao, HaoFan, Saravan Rajmohan, Qingwei Lin, Dongmei Zhang
+  authors: Ruomeng Ding, Chaoyun Zhang, Lu Wang, Yong Xu, Minghua Ma, Xiaomin Wu, Meng Zhang, Qingjun Chen, Xin Gao, Xuedong Gao, Hao Fan, Saravan Rajmohan, Qingwei Lin, Dongmei Zhang
   category: conference
   venue: FSE'23
-  paper: https://arxiv.org/abs/2310.18740
+  paper: https://dl.acm.org/doi/10.1145/3611643.3613864
   bibtex: |-
     @inproceedings{ding2023tracediag,
       doi={10.1145/3611643.3613864},
@@ -723,6 +757,7 @@
   authors: Chenyu Zhao<sup>+</sup>, Minghua Ma<sup>+</sup>, Zhenyu Zhong, Shenglin Zhang, Zhiyuan Tan, Xiao Xiong, LuLu Yu, Jiayi Feng, Yongqian Sun, Yuzhi Zhang, Dan Pei, Qingwei Lin, Dongmei Zhang
   category: conference
   venue: KDD'23
+  paper: https://dl.acm.org/doi/10.1145/3580305.3599902
   bibtex: |-
     @inproceedings{zhao2023robust,
       doi={10.1145/3580305.3599902},
@@ -732,11 +767,12 @@
       pages={5639--5649},
       year={2023}
     }
-- title: Characterizing Large-Scale Private and Public Cloud Workloads
+- title: How Different are the Cloud Workloads? Characterizing Large-Scale Private and Public Cloud Workloads
   topic: Cloud Reliability
-  authors: Xiaoting Qin, Minghua Ma, Yuheng Zhao, Jue Zhang, Chao Du, Yudong Liu, Anjaly Parayil, Chetan Bansal, Saravan Rajmohan, Inigo Goiri, Eli Cortez, Si Qin, Qingwei Lin, Dongmei Zhang
+  authors: Xiaoting Qin, Minghua Ma, Yuheng Zhao, Jue Zhang, Chao Du, Yudong Liu, Anjaly Parayil, Chetan Bansal, Saravan Rajmohan, Íñigo Goiri, Eli Cortez, Si Qin, Qingwei Lin, Dongmei Zhang
   category: conference
   venue: DSN'23
+  paper: https://doi.org/10.1109/dsn58367.2023.00055
   bibtex: |-
     @inproceedings{qin2023different,
       doi={10.1109/dsn58367.2023.00055},
@@ -749,9 +785,10 @@
     }
 - title: 'EDITS: An Easy-to-difficult Training Strategy for Cloud Failure Prediction'
   topic: Cloud Reliability
-  authors: Tianci Li, Pu Zhao, Yudong Liu, Minghua Ma, Lingling Zheng, Murali Chintalapati, Bo Liu, Paul Wang, Hongyu Zhang, Yingnong Dang, Saravan Rajmohan, Qingwei Lin, Dongmei Zhang
+  authors: Qingwei Lin, Tianci Li, Pu Zhao, Yudong Liu, Minghua Ma, Lingling Zheng, Murali Chintalapati, Bo Liu, Paul Wang, Hongyu Zhang, Yingnong Dang, Saravan Rajmohan, Dongmei Zhang
   category: conference
   venue: TheWebConf'23
+  paper: https://dl.acm.org/doi/10.1145/3543873.3584630
   bibtex: |-
     @inproceedings{lin2023edits,
       doi={10.1145/3543873.3584630},
@@ -766,6 +803,7 @@
   authors: Xiaohan Yan, Ken Hsieh, Yasitha Liyanage, Minghua Ma, Murali Chintalapati, Qingwei Lin, Yingnong Dang, Dongmei Zhang
   category: conference
   venue: ICSE-SEIP'23
+  paper: https://doi.org/10.1109/icse-seip58684.2023.00026
   bibtex: |-
     @inproceedings{yan2023aegis,
       doi={10.1109/icse-seip58684.2023.00026},
@@ -781,6 +819,7 @@
   authors: Zhengran Zeng, Yuqun Zhang, Yong Xu, Minghua Ma, Bo Qiao, Wentao Zou, Qingjun Chen, Meng Zhang, Xu Zhang, Hongyu Zhang, Xuedong Gao, Hao Fan, Saravan Rajmohan, Qingwei Lin, Dongmei Zhang
   category: conference
   venue: ICSE-SEIP'23
+  paper: https://doi.org/10.1109/icse-seip58684.2023.00029
   bibtex: |-
     @inproceedings{zeng2023traceark,
       doi={10.1109/icse-seip58684.2023.00029},
@@ -796,6 +835,7 @@
   authors: Liqun Li, Xu Zhang, Shilin He, Yu Kang, Hongyu Zhang, Minghua Ma, Yingnong Dang, Zhangwei Xu, Saravan Rajmohan, Qingwei Lin, Dongmei Zhang
   category: conference
   venue: ICSE-SEIP'23
+  paper: https://doi.org/10.1109/icse-seip58684.2023.00018
   bibtex: |-
     @inproceedings{li2023conan,
       doi={10.1109/icse-seip58684.2023.00018},
@@ -808,9 +848,10 @@
     }
 - title: An Empirical Investigation of Missing Data Handling in Cloud Node Failure Prediction
   topic: Cloud Reliability
-  authors: Minghua Ma, Yudong Liu, Yuang Tong, Haozhe Li, Pu Zhao, Yong Xu, Hongyu Zhang, Shilin He, Lu Wang, Yingnong Dang, Saravan Rajmohan, Qingwei Lin
+  authors: Minghua Ma, Yudong Liu, Yuang Tong, Haozhe Li, Pu Zhao, Yong Xu, Hongyu Zhang, Shilin He, Lu Wang, Yingnong Dang, Saravanakumar Rajmohan, Qingwei Lin
   category: conference
   venue: FSE'22
+  paper: https://dl.acm.org/doi/10.1145/3540250.3558946
   bibtex: |-
     @inproceedings{ma2022empirical,
       doi={10.1145/3540250.3558946},
@@ -822,13 +863,15 @@
     }
 - title: An Empirical Study of Log Analysis at Microsoft
   topic: Cloud Reliability
-  authors: Shilin He, Xu Zhang, Pinjia He, Yong Xu, Liqun Li, Yu Kang, Minghua Ma, Yining Wei, Yingnong Dang, Saravan Rajmohan, Qingwei Lin
+  authors: Shilin He, Xu Zhang, Pinjia He, Yong Xu, Liqun Li, Yu Kang, Minghua Ma, Yining Wei, Yingnong Dang, Saravanakumar Rajmohan, Qingwei Lin
   category: conference
   venue: FSE'22
+  paper: https://dl.acm.org/doi/10.1145/3540250.3558963
   bibtex: |-
     @inproceedings{he2022empirical,
+      doi={10.1145/3540250.3558963},
       title={An empirical study of log analysis at Microsoft},
-      author={He, Shilin and Zhang, Xu and He, Pinjia and Xu, Yong and Li, Liqun and Kang, Yu and Ma, Minghua and Wei, Yining and Dang, Yingnong and Rajmohan, Saravanakumar and others},
+      author={He, Shilin and Zhang, Xu and He, Pinjia and Xu, Yong and Li, Liqun and Kang, Yu and Ma, Minghua and Wei, Yining and Dang, Yingnong and Rajmohan, Saravanakumar and Lin, Qingwei},
       booktitle={Proceedings of the 30th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering},
       pages={1465--1476},
       year={2022}
@@ -838,6 +881,7 @@
   authors: Yudong Liu, Hailan Yang, Pu Zhao, Minghua Ma, Chengwu Wen, Hongyu Zhang, Chuan Luo, Qingwei Lin, Chang Yi, Jiaojian Wang, Chenjian Zhang, Paul Wang, Yingnong Dang, Saravan Rajmohan, Dongmei Zhang
   category: conference
   venue: KDD'22
+  paper: https://dl.acm.org/doi/10.1145/3534678.3539176
   bibtex: |-
     @inproceedings{liu2022multi,
       doi={10.1145/3534678.3539176},
@@ -852,6 +896,7 @@
   authors: Yudong Liu, Xu Zhang, Shilin He, Hongyu Zhang, Liqun Li, Yu Kang, Yong Xu, Minghua Ma, Qingwei Lin, Yingnong Dang, Saravan Rajmohan, Dongmei Zhang
   category: conference
   venue: TheWebConf'22
+  paper: https://dl.acm.org/doi/10.1145/3485447.3511993
   bibtex: |-
     @inproceedings{liu2022uniparser,
       doi={10.1145/3485447.3511993},
@@ -861,11 +906,12 @@
       pages={1893--1901},
       year={2022}
     }
-- title: Mining Fluctuation Propagation Graph among Time Series with Human-in-the-Loop
+- title: Mining Fluctuation Propagation Graph Among Time Series with Active Learning
   topic: Anomaly Detection
   authors: Mingjie Li, Minghua Ma, Xiaohui Nie, Kanglin Yin, Li Cao, Xidao Wen, Zhiyun Yuan, Duogang Wu, Guoying Li, Wei Liu, Xin Yang, Dan Pei
   category: conference
   venue: DEXA'22
+  paper: https://link.springer.com/chapter/10.1007/978-3-031-12423-5_17
   bibtex: |-
     @inproceedings{li2022mining,
       doi={10.1007/978-3-031-12423-5_17},
@@ -881,6 +927,7 @@
   authors: Minghua Ma, Shenglin Zhang, Junjie Chen, Jim Xu, Haozhe Li, Yongliang Lin, Xiaohui Nie, Bo Zhou, Yong Wang, Dan Pei
   category: conference
   venue: ATC'21
+  paper: https://www.usenix.org/conference/atc21/presentation/ma
   code: https://github.com/NetManAIOps/JumpStarter
   bibtex: |-
     @inproceedings{ma2021jump,
@@ -895,6 +942,7 @@
   authors: Minghua Ma, Zheng Yin, Shenglin Zhang, Sheng Wang, Christopher Zheng, Xinhao Jiang, Hanwen Hu, Cheng Luo, Yilin Li, Nengjun Qiu, Feifei Li, Changcheng Chen, Dan Pei
   category: conference
   venue: VLDB'20
+  paper: https://doi.org/10.14778/3389133.3389136
   bibtex: |-
     @article{ma2020diagnosing,
       doi={10.14778/3389133.3389136},
@@ -923,6 +971,7 @@
   authors: Minghua Ma, Shenglin Zhang, Dan Pei, Xin Huang, Hongwei Dai
   category: conference
   venue: ISSRE'18
+  paper: https://doi.org/10.1109/issre.2018.00013
   bibtex: |-
     @inproceedings{ma2018robust,
       doi={10.1109/issre.2018.00013},
@@ -939,6 +988,7 @@
   authors: Minghua Ma, Kai Zhao, Kaixin Sui, Lei Xu, Yong Li, Dan Pei
   category: conference
   venue: IWQoS'17
+  paper: https://doi.org/10.1109/iwqos.2017.7969154
   bibtex: |-
     @inproceedings{ma2017you,
       doi={10.1109/iwqos.2017.7969154},
@@ -954,6 +1004,7 @@
   authors: Kaixin Sui, Youjian Zhao, Dapeng Liu, Minghua Ma, Lei Xu, Li Zimu, Dan Pei
   category: conference
   venue: IWQoS'16
+  paper: https://doi.org/10.1109/iwqos.2016.7590444
   bibtex: |-
     @inproceedings{sui2016your,
       doi={10.1109/iwqos.2016.7590444},
@@ -969,19 +1020,22 @@
   authors: Mengyu Zhou, Minghua Ma, Yangkun Zhang, Kaixin Sui, Dan Pei, Thomas Moscibroda
   category: conference
   venue: UbiComp'16
+  paper: https://dl.acm.org/doi/10.1145/2971648.2971657
   bibtex: |-
     @inproceedings{zhou2016edum,
+      doi={10.1145/2971648.2971657},
       title={EDUM: classroom education measurements via large-scale WiFi networks},
-      author={Zhou, Mengyu and Ma, Minghua and Zhang, Yangkun and SuiA, Kaixin and Pei, Dan and Moscibroda, Thomas},
+      author={Zhou, Mengyu and Ma, Minghua and Zhang, Yangkun and Sui, Kaixin and Pei, Dan and Moscibroda, Thomas},
       booktitle={Proceedings of the 2016 acm international joint conference on pervasive and ubiquitous computing},
       pages={316--327},
       year={2016}
     }
 - title: Characterizing and Improving WiFi Latency in Large-Scale Operational Networks
   topic: Networking
-  authors: Kaixin Sui, Mengyu Zhou, Dapeng Liu, Minghua Ma, Dan Pei
+  authors: Kaixin Sui, Mengyu Zhou, Dapeng Liu, Minghua Ma, Dan Pei, Youjian Zhao, Zimu Li, Thomas Moscibroda
   category: conference
   venue: MobiSys'16
+  paper: https://dl.acm.org/doi/10.1145/2906388.2906393
   bibtex: |-
     @inproceedings{sui2016characterizing,
       doi={10.1145/2906388.2906393},
@@ -996,6 +1050,7 @@
   authors: Changhua Pei, Youjian Zhao, Guo Chen, Ruming Tang, Yuan Meng, Minghua Ma, Ken Ling, Dan Pei
   category: conference
   venue: INFOCOM'16
+  paper: https://doi.org/10.1109/infocom.2016.7524396
   bibtex: |-
     @inproceedings{pei2016wifi,
       doi={10.1109/infocom.2016.7524396},
@@ -1008,10 +1063,10 @@
     }
 - title: 'LLM-Enhanced Failure Localization in Microservices: Integrating Multi-Modal Data and Expert Interpretation'
   topic: AI Agents
-  authors: Zhengyu Zhong, Ruowei Fu, Minghua Ma, Shenglin Zhang, Yongqian Sun, Chetan Bansal, Dan Pei
+  authors: Zhenyu Zhong, Ruowei Fu, Minghua Ma, Shenglin Zhang, Yongqian Sun, Chetan Bansal, Dan Pei
   category: journal
   venue: TSC'26
-  paper: https://ieeexplore.ieee.org/document/11449471
+  paper: https://doi.org/10.1109/tsc.2026.3676262
   bibtex: |-
     @article{zhong2026llm,
       doi={10.1109/tsc.2026.3676262},
@@ -1026,22 +1081,22 @@
   authors: Shenglin Zhang, Jiacheng Zhang, Guohua Liu, Shiqi Chen, Chenyu Zhao, Minghua Ma, Yutong Chen, Yongqian Sun, Dan Pei
   category: journal
   venue: TSC'25
-  paper: https://ieeexplore.ieee.org/abstract/document/11165203
+  paper: https://doi.org/10.1109/tsc.2025.3610402
   bibtex: |-
     @article{zhang2024bridging,
       doi={10.1109/tsc.2025.3610402},
       title={Bridging edge and cloud: A knowledge-enhanced framework for efficient time series anomaly detection},
       author={Zhang, Shenglin and Zhang, Jiacheng and Liu, Guohua and Chen, Shiqi and Zhao, Chenyu and Ma, Minghua and Chen, Yutong and Sun, Yongqian and Pei, Dan},
       journal={IEEE Transactions on Services Computing},
-      year={2024},
+      year={2025},
       publisher={IEEE}
     }
 - title: Enhanced Fairness Testing via Generating Effective Initial Individual Discriminatory Instances
   topic: Cloud Reliability
-  authors: Zhao Tian, Minghua Ma, Max Hort, Federica Sarro, Hongyu Zhang
+  authors: Zhao Tian, Minghua Ma, Max Hort, Federica Sarro, Hongyu Zhang, Junjie Chen
   category: journal
-  venue: TOSEM'25
-  paper: https://arxiv.org/abs/2209.08321
+  venue: TOSEM'26
+  paper: https://dl.acm.org/doi/10.1145/3737697
   bibtex: |-
     @article{ma2022enhanced,
       doi={10.1145/3737697},
@@ -1059,7 +1114,7 @@
   authors: Shenglin Zhang, Pengxiang Jin, Zihan Lin, Yongqian Sun, Bicheng Zhang, Sibo Xia, Zhengdan Li, Zhenyu Zhong, Minghua Ma, Wa Jin, Dai Zhang, Zhenyu Zhu, Dan Pei
   category: journal
   venue: TSC'23
-  paper: https://arxiv.org/abs/2302.10512
+  paper: https://doi.org/10.1109/tsc.2023.3290018
   bibtex: |-
     @article{zhang2023robust,
       doi={10.1109/tsc.2023.3290018},
@@ -1077,6 +1132,7 @@
   authors: Nengwen Zhao, Jing Zhu, Yao Wang, Minghua Ma, Wenchi Zhang, Dapeng Liu, Ming Zhang, Dan Pei
   category: journal
   venue: TNSM'19
+  paper: https://doi.org/10.1109/tnsm.2019.2919327
   bibtex: |-
     @article{zhao2019automatic,
       doi={10.1109/tnsm.2019.2919327},
