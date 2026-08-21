@@ -13,6 +13,18 @@
 #   - bibtex:        BibTeX citation content, multiline (optional)
 #   - award:         Award text, shown in red (optional)
 # =============================================================================
+- title: 'GUI-360°: A Comprehensive Dataset and Benchmark for Desktop Productivity Computer-Using Agents'
+  topic: AI Agents
+  authors: Jian Mu, Chaoyun Zhang, Chiming Ni, Lu Wang, Bo Qiao, Kartik Mathur, Qianhui Wu, Yuhang Xie, Xiaojun Ma, Mengyu Zhou, Si Qin, Liqun Li, Yu Kang, Minghua Ma, Qingwei Lin, Saravan Rajmohan, Dongmei Zhang
+  category: conference
+  venue: EMNLP'26
+  bibtex: |-
+    @inproceedings{mu2026gui360,
+      title={GUI-360°: A Comprehensive Dataset and Benchmark for Desktop Productivity Computer-Using Agents},
+      author={Mu, Jian and Zhang, Chaoyun and Ni, Chiming and Wang, Lu and Qiao, Bo and Mathur, Kartik and Wu, Qianhui and Xie, Yuhang and Ma, Xiaojun and Zhou, Mengyu and Qin, Si and Li, Liqun and Kang, Yu and Ma, Minghua and Lin, Qingwei and Rajmohan, Saravan and Zhang, Dongmei},
+      booktitle={Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP)},
+      year={2026}
+    }
 - title: 'Bridging the Mitigation Gap: A Taxonomy-Driven Empirical Study of Incident Recovery in Production LLM Serving'
   topic: Incident Management
   authors: Bhala Ranganathan, Minghua Ma
